@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <title>Corona API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+
+</head>
+<style>
+</style>
+
+<div class="text-center mt-4">
+    <b>
+        <h3 class="mb-1"> Corona API</h3>
+    </b>
+    <span class="text-center" id="dateNow"></span>
+</div>
+
+
+<body>
+    <div class="row container nb-3">
+        <div class="col-4" style="margin-top: 5%">
+            <div class="card card-body text-center">
+                <span>Total confirmed: </span>
+                <h3 id="confirmed"></h3>
+            </div>
+        </div>
+        <div class="col-4" style="margin-top: 5%">
+            <div class="card card-body text-center">
+                <span>Total deaths: </span>
+                <h3 id="deaths"></h3>
+            </div>
+        </div>
+        <div class="col-4" style="margin-top: 5%">
+            <div class="card card-body text-center">
+                <span>Total recovered:</span>
+                <h3 id="recovered"></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card card-body">
+                <div id="listData">
+                    <table id="tblData" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th class="text-center">Counter</th>
+                                <th class="text-center">Today cases</th>
+                                <th class="text-center">Confirmed</th>
+                                <th class="text-center">Deaths:</th>
+                                <th class="text-center">recovered</th>
+                                <th class="text-center">cases Per One Million</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>>
+    </div>
+</body>
+
+<footer class="footer text-center">
+    By: <a href="https://github.com/Mohammedsalah19/CoronaTracker-APi"> Corona Tracker APi</a>
+</footer>
+
+<script src="./script.js"></script>
+
+</html>
