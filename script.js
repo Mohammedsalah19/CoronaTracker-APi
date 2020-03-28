@@ -1,19 +1,11 @@
 $(() => {
-  //  GetApiData();
   dateNow();
-  // عايز اعرف فايدة الخمس سطور دول؟؟؟؟
 });
 
 function dateNow() {
   var DATENOW = new Date($.now());
   $('#dateNow').text(DATENOW);
 }
-
-// بطلوا سباكة بقى
-// بطلوا سباكة بقى
-// بطلوا سباكة بقى
-// بطلوا سباكة بقى
-// بطلوا سباكة بقى
 
 // const promiseA = new Promise((resolve, rejectionFunc) => {
 //   setTimeout(function () {
@@ -53,14 +45,3 @@ function GetApiData() {
 function LoadTatable() {
   $('#tblData').DataTable();
 }
-
-// function CountryDetails(country) {
-
-
-//   $.getJSON('http://api.coronastatistics.live/timeline/' + country, function (data) {
-
-
-
-//   })
-
-// }
